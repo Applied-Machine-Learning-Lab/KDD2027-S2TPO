@@ -1,0 +1,22 @@
+{
+  "actor_batch_size": 256,
+  "actor_epochs": 1,
+  "actor_learning_rate": 7e-07,
+  "beta_q": 0.5,
+  "clip_epsilon": 0.2,
+  "critic_batch_size": 96,
+  "critic_ensemble_size": 8,
+  "critic_epochs": 3,
+  "critic_item_coefficient": 0.75,
+  "critic_learning_rate": 0.001,
+  "critic_prefix_coefficient": 0.5,
+  "critic_rank_coefficient": 0.15,
+  "ema_retention": 0.98,
+  "group_size": 8,
+  "kl_coefficient": 0.03,
+  "max_history": 50,
+  "page_size": 6,
+  "proposal_count": 192,
+  "session_discount": 0.9,
+  "sid_depth": 4
+}
